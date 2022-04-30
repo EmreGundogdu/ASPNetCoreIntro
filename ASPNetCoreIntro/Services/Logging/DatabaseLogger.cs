@@ -9,7 +9,7 @@ namespace ASPNetCoreIntro.Services.Logging
     {
         public void Log(string logMessage)
         {
-            //Veritabanına kaydetme kodları
+            Console.WriteLine("Database Logger");
         }
     }
 }

@@ -9,7 +9,7 @@ namespace ASPNetCoreIntro.Services.Logging
     {
         public void Log(string logMessage)
         {
-            //Dosyaya kaydetme kodları
+            Console.WriteLine("File Logger");
         }
     }
 }

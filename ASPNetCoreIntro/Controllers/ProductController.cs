@@ -10,7 +10,7 @@ namespace ASPNetCoreIntro.Controllers
 {
     public class ProductController : Controller
     {
-        //http://emregundogdu.com/product(index
+        //http://emregundogdu.com/product/index
         public IActionResult Index()
         {
             return View();
