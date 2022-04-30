@@ -25,7 +25,7 @@ namespace ASPNetCoreIntro
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSession();
-            services.AddSingleton<ILogger, DatabaseLogger>();
+            services.AddScoped<ILogger, DatabaseLogger>();
             services.AddControllersWithViews();
         }
 
